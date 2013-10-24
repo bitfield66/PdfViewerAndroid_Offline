@@ -1,0 +1,23 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar" />
+
+    <style name="Theme.Billing" parent="@android:style/Theme.Holo.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.NoBackground.NoTitle" parent="android:Theme.Holo">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Fullscreen" parent="android:Theme.Holo.NoActionBar.Fullscreen"></style>
+
+    <style name="errorText">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@android:color/holo_red_light</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+</resources>
